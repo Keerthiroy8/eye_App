@@ -33,7 +33,7 @@ function Login({ navigation }) {
       </RadioButton.Group>       
       </View>      
       <TouchableOpacity onPress={this._onPress} style={styles.buttontop}>
-            <Text style={styles.buttonText} onPress={() => navigation.navigate('Eyes')}>Test Eye</Text>
+            <Text style={styles.buttonText} onPress={() => navigation.navigate('Eyes Scanning Now')}>Test Eye</Text>
         </TouchableOpacity>
     </View>
     </View>
